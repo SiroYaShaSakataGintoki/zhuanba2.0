@@ -1,0 +1,57 @@
+.fl{
+  float: left;
+}
+.header{
+   display: flex;
+   justify-content: center;
+
+}
+.header_1{
+  float: left;
+  text-align: center;
+}
+.bd{
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.nav{
+  white-space: nowrap;
+  padding: 5rpx;
+}
+.nav_item{
+  padding: 20rpx 45rpx;
+  font-size: 30rpx;
+  display: inline-block;
+}
+.nav_item.active{
+  border-bottom: 3px solid pink;
+}
+.text2{
+  margin-left:60px;
+}
+.picture{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.background {
+  /* width: 100%;
+  height: 100%; */
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+textarea{
+  float: left;
+  width:318px;
+  height:150px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+image{
+  height: 150px;
+  width: 150px;
+}
